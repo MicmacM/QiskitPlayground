@@ -8,7 +8,7 @@ import matplotlib as plt
 qc = QuantumCircuit(2)
  
 # Add a Hadamard gate to qubit 0
-qc.h(0)
+qc.h(1)
  
 # Perform a controlled-X gate on qubit 1, controlled by qubit 0
 qc.cx(0, 1)
